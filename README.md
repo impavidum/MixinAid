@@ -1,5 +1,5 @@
+<img src="https://raw.githubusercontent.com/impavidum/mixinaid/master/MixinAidLogo.png" width="200" height="200" />
 
-![alt tag](https://raw.githubusercontent.com/impavidum/mixinaid/master/MixinAidLogo.png =100x100)
 # MixinAid
 
 A crowd sourced Mixin Library. Built by:
