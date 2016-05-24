@@ -1,4 +1,4 @@
-# mixinaid
+# MixinAid
 
 A crowd sourced Mixin Library. Built by:
 
@@ -12,7 +12,7 @@ http://ramseykjenna.github.io/
 
 https://mixinaid.firebaseapp.com/#/
 
-## Submit a mixin:
+## Submit a Mixin:
 
 1. Create account
 2. Click Add New from menu
@@ -23,7 +23,7 @@ https://mixinaid.firebaseapp.com/#/
 1. Log in to account
 2. Click + icon on a mixin, it will be added to My Mixins
 
-## Coming soon
+## Coming Soon
 1. Copy to clipboard
 2. Download .scss file of all 'My Mixins'
 3. Pinterest style feed to accomodate varying sized tiles caused by comments
