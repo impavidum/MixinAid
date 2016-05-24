@@ -1,8 +1,10 @@
-<img src="https://raw.githubusercontent.com/impavidum/mixinaid/master/MixinAidLogo.png" width="200" height="200" />
+-> <img src="https://raw.githubusercontent.com/impavidum/mixinaid/master/MixinAidLogo.png" width="200" height="200" /> <-
 
-# MixinAid
+-> # MixinAid <-
+-> A crowd sourced Mixin Library. <-
 
-A crowd sourced Mixin Library. Built by:
+
+## Built by:
 
 https://impavidum.me/#/
 
