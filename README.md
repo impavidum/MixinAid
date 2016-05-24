@@ -1,9 +1,9 @@
-<center> <img src="https://raw.githubusercontent.com/impavidum/mixinaid/master/MixinAidLogo.png" width="200" height="200" /> </center>
+<img src="https://raw.githubusercontent.com/impavidum/mixinaid/master/MixinAidLogo.png" width="200" height="200" /> 
 
 
-<center> # MixinAid </center>
+# MixinAid 
 
-<center> A crowd sourced Mixin Library. </center>
+ A crowd sourced Mixin Library. 
 
 
 
