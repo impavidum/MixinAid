@@ -1,3 +1,5 @@
+
+![alt tag](https://raw.githubusercontent.com/impavidum/mixinaid/master/MixinAidLogo.png)
 # MixinAid
 
 A crowd sourced Mixin Library. Built by:
