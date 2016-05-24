@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/impavidum/mixinaid/master/MixinAidLogo.png" width="200" height="200" /> 
+<img src="https://raw.githubusercontent.com/impavidum/mixinaid/master/MixinAidLogo.png" width="150" height="150" /> 
 
 
 # MixinAid 
