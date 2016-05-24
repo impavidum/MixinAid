@@ -31,7 +31,11 @@ https://mixinaid.firebaseapp.com/#/
 
 ## Build & development
 
-Run `grunt` for building and `grunt serve` for preview.
+Fork or Clone
+Run `npm install`
+Run `bower install`
+Run `grunt build` for building
+Run `grunt serve` for preview.
 
 ## Testing
 
