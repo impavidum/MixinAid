@@ -1,0 +1,616 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+.home-page {
+  position: relative; }
+  .home-page .logo {
+    position: relative;
+    width: 100%;
+    height: auto; }
+    .home-page .logo img {
+      height: 15em;
+      width: auto;
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%); }
+  .home-page .about {
+    width: 60%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 2em;
+    margin-top: -1.5em;
+    text-align: center; }
+    .home-page .about h1 {
+      color: #34314c;
+      margin-bottom: 0; }
+    .home-page .about p {
+      color: #34314c;
+      font-size: 1.25em;
+      margin: 0;
+      margin-bottom: 1.5em; }
+  .home-page .search {
+    position: relative;
+    width: 50%;
+    height: 3em;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%); }
+    .home-page .search input {
+      width: 100%;
+      height: 100%;
+      border-style: none;
+      border: 2px solid #ECF0F1;
+      border-radius: 25px;
+      background-color: transparent;
+      outline: none;
+      font-size: 1em;
+      color: #34314c;
+      padding-left: 1em; }
+    .home-page .search i {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      right: .5em;
+      color: #ff7473;
+      font-size: 1.5em; }
+  .home-page .latest {
+    height: auto;
+    width: 100%;
+    float: left;
+    margin-bottom: 2em; }
+    .home-page .latest h1 {
+      color: #c0cdd1;
+      margin: 2em 0 0 1.5%; }
+  .home-page .popular {
+    height: auto; }
+    .home-page .popular h1 {
+      color: #c0cdd1;
+      margin: 1em 0 0 1.5%; }
+
+.all-page {
+  padding-top: 1em; }
+  .all-page h1 {
+    color: #c0cdd1;
+    margin-left: 1.5%; }
+
+.profile-page .card {
+  width: 100%;
+  height: 372px;
+  border-radius: 10px;
+  border: 2px solid #ffc952;
+  margin-bottom: 2em;
+  overflow: hidden;
+  margin-top: 5em; }
+  .profile-page .card .profile-info .name, .profile-page .card .profile-info h2, .profile-page .card .profile-info p {
+    color: #34314c;
+    margin-left: 1em; }
+  .profile-page .card a {
+    margin-left: 1em; }
+  .profile-page .card img {
+    height: 5em;
+    width: auto;
+    display: inline-block;
+    position: relative;
+    float: left; }
+
+.new-page .about {
+  width: 50%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 2em;
+  margin-top: 3em; }
+  .new-page .about h1 {
+    color: #34314c;
+    font-size: 1.5em;
+    white-space: nowrap;
+    text-align: center;
+    margin-bottom: .25em; }
+  .new-page .about p {
+    margin: 0;
+    margin-bottom: 2em;
+    color: #ff7473;
+    font-size: 1.25em;
+    text-align: center; }
+  .new-page .about label {
+    color: #34314c;
+    display: block;
+    width: 100%; }
+  .new-page .about input {
+    margin: 1em 0;
+    width: 50%;
+    height: 2.5em;
+    border: 2px solid #ECF0F1;
+    border-radius: 2px;
+    outline: none; }
+  .new-page .about input:focus {
+    border: 2px solid #c0cdd1; }
+  .new-page .about .wrapper {
+    display: block;
+    margin: 1em 0;
+    height: 10em;
+    width: 100%;
+    position: relative; }
+    .new-page .about .wrapper i {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      color: #ECF0F1;
+      font-size: 5em; }
+    .new-page .about .wrapper .text {
+      width: 100%;
+      height: 100%;
+      outline: 0;
+      resize: none;
+      padding: .75em;
+      color: #34314c;
+      font-size: .9em;
+      border: 2px solid #ECF0F1;
+      border-radius: 2px; }
+    .new-page .about .wrapper .text:focus {
+      border: 2px solid #c0cdd1; }
+  .new-page .about ul {
+    list-style-type: none; }
+    .new-page .about ul li {
+      color: #34314c; }
+      .new-page .about ul li span {
+        font-size: 2em;
+        color: #47b8e0;
+        margin-right: .5em; }
+      .new-page .about ul li img {
+        height: 10em;
+        width: auto;
+        display: inline-block;
+        position: relative;
+        float: left;
+        margin: .5em .5em .5em 3em;
+        border-radius: 2px; }
+      .new-page .about ul li a {
+        text-decoration: none;
+        color: #47b8e0;
+        font-size: 1.5em; }
+      .new-page .about ul li a:hover {
+        color: #ff7473; }
+.new-page .upload {
+  width: 100%;
+  height: auto; }
+  .new-page .upload .codepen-text {
+    height: 10em;
+    border-style: none;
+    border-radius: 2px;
+    outline: 0;
+    border: 2px solid #ECF0F1;
+    width: 50%;
+    font-size: 1em;
+    color: #34314c;
+    margin: .5em; }
+  .new-page .upload button {
+    width: 20%;
+    border-radius: 2px;
+    border-style: none;
+    height: 3em;
+    color: white;
+    background-color: #ff7473;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%); }
+
+.account-page {
+  height: auto;
+  width: 80%;
+  padding-top: 5em;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%); }
+  .account-page #logout {
+    background-color: transparent;
+    font-size: 1.5em;
+    width: 100%;
+    margin: 3em 0;
+    color: #b1c2c6;
+    text-align: center; }
+  .account-page #logout:hover {
+    color: #ff7473; }
+  .account-page .email, .account-page .pass {
+    display: inline-block;
+    position: relative;
+    float: left;
+    width: 40%;
+    margin: 5%; }
+  .account-page h3 {
+    color: #b1c2c6;
+    text-align: center;
+    margin-top: 0;
+    font-size: 1.5em; }
+  .account-page label {
+    display: block;
+    color: #34314c;
+    margin-bottom: .5em; }
+  .account-page input {
+    height: 3em;
+    width: 100%;
+    border-style: none;
+    border-radius: 2px;
+    outline: 0;
+    border: 2px solid #cfd9db; }
+  .account-page button {
+    width: 100%;
+    border-radius: 2px;
+    border-style: none;
+    height: 3em;
+    background-color: #47b8e0;
+    color: white;
+    font-size: .8em; }
+
+.login-page {
+  position: relative;
+  width: 100%;
+  height: 80vh; }
+  .login-page .login-form {
+    height: auto;
+    width: 50%;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    float: left;
+    padding: 3em 0; }
+    .login-page .login-form .rainbow {
+      height: .75em;
+      width: 100%;
+      background-color: red;
+      position: absolute;
+      top: 0; }
+      .login-page .login-form .rainbow .colors {
+        height: 100%;
+        width: 10%;
+        display: inline-block;
+        position: relative;
+        float: left; }
+      .login-page .login-form .rainbow .primary {
+        background-color: #34314c; }
+      .login-page .login-form .rainbow .secondary {
+        background-color: #ffc952; }
+      .login-page .login-form .rainbow .accent1 {
+        background-color: #47b8e0; }
+      .login-page .login-form .rainbow .accent2 {
+        background-color: #ff7473; }
+    .login-page .login-form h2 {
+      color: #b1c2c6;
+      text-align: center;
+      margin-top: 0; }
+    .login-page .login-form label {
+      color: #47b8e0;
+      font-size: 1.5em; }
+    .login-page .login-form input {
+      height: 3em;
+      border-style: none;
+      border-radius: 2px;
+      outline: 0;
+      border: 2px solid #cfd9db;
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 50%; }
+    .login-page .login-form .buttons {
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 50%;
+      height: auto;
+      float: left;
+      position: relative; }
+      .login-page .login-form .buttons button {
+        display: inline-block;
+        position: relative;
+        float: left;
+        width: 47.5%;
+        border-radius: 2px;
+        border-style: none;
+        height: 3em;
+        color: white; }
+      .login-page .login-form .buttons #login {
+        margin-right: 5%;
+        background-color: #34314c; }
+      .login-page .login-form .buttons #register {
+        background-color: #ff7473; }
+      .login-page .login-form .buttons #create {
+        margin-right: 5%;
+        background-color: #ff7473; }
+      .login-page .login-form .buttons #cancel {
+        background-color: #c0cdd1; }
+      .login-page .login-form .buttons #google, .login-page .login-form .buttons #git {
+        margin-right: 5%;
+        background-color: white;
+        color: #34314c;
+        border: 1px solid #34314c; }
+      .login-page .login-form .buttons #git {
+        margin-right: 0; }
+    .login-page .login-form .divider {
+      width: 100%;
+      height: 6em;
+      position: relative;
+      float: left; }
+      .login-page .login-form .divider .divider-content {
+        width: auto;
+        height: auto;
+        text-align: center;
+        color: #b1c2c6;
+        position: relative;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%); }
+
+body {
+  font-family: 'Fira Sans', sans-serif;
+  margin: 0; }
+  body a {
+    text-decoration: none; }
+  body .logo-wrap {
+    opacity: 0 !important; }
+
+.card {
+  display: inline-block;
+  position: relative;
+  float: left;
+  width: 47%;
+  margin: 1.5%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 2em;
+  overflow: hidden;
+  padding-bottom: 1em;
+  box-shadow: 0 0 30px 0 #ECF0F1; }
+  .card .detail {
+    width: 100%;
+    padding: 1em;
+    position: relative; }
+    .card .detail .title {
+      font-size: 1.5em;
+      color: #34314c;
+      width: 30%;
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%); }
+    .card .detail .user {
+      color: #cfd9db;
+      font-size: .9em;
+      margin: 0; }
+    .card .detail .icons {
+      width: 30%;
+      display: inline-block;
+      position: relative;
+      float: left;
+      float: right;
+      text-align: right; }
+      .card .detail .icons .save {
+        font-size: 1.5em;
+        color: #47b8e0;
+        margin-right: .5em; }
+      .card .detail .icons .copy {
+        font-size: 1.5em;
+        color: #ffc952; }
+  .card .codepen {
+    width: 100%; }
+  .card .comments {
+    width: 100%;
+    padding: 0 1em; }
+    .card .comments p {
+      width: 100%;
+      margin: .2em 0;
+      font-size: .9em;
+      display: inline-block;
+      position: relative;
+      float: left;
+      color: #34314c; }
+      .card .comments p span {
+        font-size: .9em;
+        color: #a3b6bb;
+        margin-right: .25em; }
+    .card .comments input {
+      height: 2em;
+      border-style: none;
+      border-radius: 2px;
+      outline: 0;
+      border: 2px solid #ECF0F1;
+      display: inline-block;
+      position: relative;
+      float: left;
+      width: 78%;
+      padding-left: .25em;
+      margin-right: 2%;
+      font-size: .75em;
+      height: 33px;
+      color: #34314c; }
+    .card .comments button {
+      width: 20%;
+      border-radius: 2px;
+      border-style: none;
+      height: 3em;
+      color: white;
+      background-color: #ff7473;
+      outline: none; }
+    .card .comments .first p {
+      margin-top: .75em; }
+    .card .comments .last p {
+      margin-bottom: .75em; }
+
+.navigation .nav {
+  height: 4em;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  background-color: white;
+  box-shadow: 0 0 30px 0 #ECF0F1; }
+  .navigation .nav .rainbow {
+    height: .25em;
+    width: 100%;
+    background-color: red;
+    position: absolute;
+    bottom: 0; }
+    .navigation .nav .rainbow .colors {
+      height: 100%;
+      width: 5%;
+      display: inline-block;
+      position: relative;
+      float: left; }
+    .navigation .nav .rainbow .primary {
+      background-color: #34314c; }
+    .navigation .nav .rainbow .secondary {
+      background-color: #ffc952; }
+    .navigation .nav .rainbow .accent1 {
+      background-color: #47b8e0; }
+    .navigation .nav .rainbow .accent2 {
+      background-color: #ff7473; }
+  .navigation .nav i {
+    font-size: 1.25em;
+    color: #34314c;
+    display: inline-block;
+    position: relative;
+    float: left;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -2em; }
+  .navigation .nav .word-mark {
+    font-weight: bold;
+    font-size: 2em;
+    color: #34314c;
+    display: inline-block;
+    position: relative;
+    float: left;
+    margin: 0;
+    left: 1em;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%); }
+  .navigation .nav .account, .navigation .nav .new, .navigation .nav .all {
+    color: #ff7473;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    display: inline-block;
+    position: relative;
+    float: right;
+    background-color: transparent;
+    margin-right: .5em;
+    padding: .5em 1em;
+    width: 7em;
+    text-align: center;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-size: 1.1em; }
+  .navigation .nav .new {
+    color: #34314c; }
+  .navigation .nav .all {
+    color: #47b8e0; }
+.navigation .mobile-menu, .navigation .open {
+  height: 100%;
+  width: 20em;
+  position: fixed;
+  top: 4em;
+  left: -20em;
+  z-index: 998;
+  background-color: white;
+  box-shadow: 1px 0 5px #c0cdd1;
+  transition: left 500ms ease-in-out; }
+  .navigation .mobile-menu .logo, .navigation .open .logo {
+    position: relative;
+    height: 6em;
+    width: 100%; }
+    .navigation .mobile-menu .logo img, .navigation .open .logo img {
+      position: relative;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      height: 2em;
+      width: auto;
+      margin-bottom: 1em; }
+  .navigation .mobile-menu ul, .navigation .open ul {
+    padding: 0; }
+    .navigation .mobile-menu ul li, .navigation .open ul li {
+      list-style-type: none;
+      border-bottom: 1px solid #ECF0F1;
+      color: #34314c;
+      margin-left: 1em;
+      margin-bottom: 1em;
+      margin-right: 1em;
+      font-size: 1.5em; }
+  .navigation .mobile-menu .copyright, .navigation .open .copyright {
+    position: relative; }
+    .navigation .mobile-menu .copyright img, .navigation .open .copyright img {
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%);
+      height: 3em;
+      width: auto; }
+.navigation .open {
+  left: 0 !important; }
+
+.container {
+  position: relative;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 85%;
+  max-width: 1200px;
+  padding-top: 5em; }
+
+.footer {
+  margin-top: 3em;
+  position: relative;
+  height: 5em;
+  width: 100%;
+  text-align: center;
+  float: left; }
+  .footer i {
+    font-size: 1em;
+    color: #ff7473; }
+  .footer span {
+    font-size: 1em;
+    color: #8681ae;
+    margin: 0; }
+
+@media screen and (max-width: 480px) {
+  .home-page .about p {
+    width: 100%;
+    padding: 0;
+    margin: 0; }
+  .home-page .card {
+    width: 100%; }
+  .home-page .search {
+    width: 80%; } }
+@media screen and (max-width: 768px) {
+  .navigation .nav .word-mark {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); }
+  .navigation .nav .account, .navigation .nav .new, .navigation .nav .all {
+    position: absolute;
+    right: -200px; }
+  .navigation .nav .new {
+    position: absolute;
+    right: -200px; }
+  .navigation .nav .all {
+    position: absolute;
+    right: -200px; }
+  .navigation .nav i {
+    left: 1em; }
+
+  .account-page h3 {
+    font-size: 1.25em;
+    margin-top: 1em; }
+  .account-page .email, .account-page .pass {
+    width: 98%; } }
+@media screen and (max-width: 1000px) {
+  .card {
+    width: 100%; } }
+
+/*# sourceMappingURL=main.css.map */
