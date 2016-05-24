@@ -1,6 +1,12 @@
 # mixinaid
 
-A crowd sourced Mixin Library.
+A crowd sourced Mixin Library. Built by:
+
+https://impavidum.me/#/
+
+and 
+
+http://ramseykjenna.github.io/
 
 ## Demo:
 
