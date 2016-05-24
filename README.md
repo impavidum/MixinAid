@@ -1,5 +1,5 @@
 
-![alt tag](https://raw.githubusercontent.com/impavidum/mixinaid/master/MixinAidLogo.png)
+![alt tag](https://raw.githubusercontent.com/impavidum/mixinaid/master/MixinAidLogo.png =100x)
 # MixinAid
 
 A crowd sourced Mixin Library. Built by:
