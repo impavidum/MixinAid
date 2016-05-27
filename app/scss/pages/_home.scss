@@ -5,7 +5,8 @@
             width: 100%;
             height: auto;
             img {
-                height: 15em;
+                height: 12em;
+                margin: 9em 0 1em 0;
                 width: auto;
                 @include h-center;
             }
